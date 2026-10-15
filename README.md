@@ -38,4 +38,4 @@ Vlasov–Poisson–Fokker–Planck, plasma confinement, free energy minimisation
   [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
 - The numerical code is licensed under the [MIT License](LICENSE-CODE).
 
-See `LICENSE-TEXT` and `LICENSE-CODE` for details.
+See [License-Text](License-Text) and [License-Code](License-Code) for details.
