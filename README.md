@@ -28,6 +28,24 @@ The thesis addresses four questions, one per chapter, each building on the last.
 - An entropic (Kullback–Leibler) formulation of the confinement problem with a well-posedness result.
 - An extension of hypocoercivity estimates for the linearised VPFP system to the torus, and numerically tested control strategies for accelerating relaxation to equilibrium.
 
+## Project structure
+
+```
+.
+├── Text/                  # Thesis document
+│   ├── [PDF](Text/Variational_Analysis_of_Confinement_And_Hypocoercive_Stability_of_Equilibria_in_VPFP_Systems.pdf).pdf         # Compiled thesis
+│   └── ...                # LaTeX source files
+├── Notebook.ipynb  # Code for the numerical simulations
+├── License-Text
+├── License-Code
+└── README.md
+```
+
+- **`Text/`** contains the thesis as a PDF together with its full LaTeX source.
+- **`Notebook.ipynb`** is a Jupyter notebook containing the code for all numerical simulations in the thesis: the one-dimensional inverse confinement problem and the hypocoercivity and feedback control experiments. It requires [JAX](https://github.com/jax-ml/jax).
+
+The code is presented and commented in the thesis itself. The numerical implementation of the inverse confinement problem is commented in **Chapter 4**, and the implementation of the hypocoercivity experiments and control strategies is commented in **Chapter 5**. Readers who want to understand or reproduce the simulations are encouraged to read these chapters alongside the notebook.
+
 ## Keywords
 
 Vlasov–Poisson–Fokker–Planck, plasma confinement, free energy minimisation, Poisson–Boltzmann–Emden equation, solution operators, PDE-constrained optimisation, Kullback–Leibler divergence, hypocoercivity, feedback control.
