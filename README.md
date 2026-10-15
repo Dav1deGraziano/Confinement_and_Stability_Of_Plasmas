@@ -32,10 +32,10 @@ The thesis addresses four questions, one per chapter, each building on the last.
 
 ```
 .
-├── Text/                  # Thesis document
-│   ├── [PDF](Text/Variational_Analysis_of_Confinement_And_Hypocoercive_Stability_of_Equilibria_in_VPFP_Systems.pdf).pdf         # Compiled thesis
-│   └── ...                # LaTeX source files
-├── Notebook.ipynb  # Code for the numerical simulations
+├── Text/                                               # Thesis document
+│   ├── Variational_Analysis_of_Confinement.pdf         # Compiled thesis
+│   └── Latex-Source.zip                                # LaTeX source files
+├── Notebook.ipynb                                      # Code for the numerical simulations
 ├── License-Text
 ├── License-Code
 └── README.md
